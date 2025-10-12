@@ -326,81 +326,112 @@
   <p class="text-gray-300 mb-10">Here are a few apps and systems I’ve crafted — full of energy, code, and lots of coffee ☕.</p>
 
   <h3 class="text-2xl font-semibold mb-8">Featured Work</h3>
-
-  <!-- Carousel Wrapper -->
-  <div class="relative max-w-6xl mx-auto px-6">
-    <!-- Slides -->
-    <div id="project-carousel" class="overflow-hidden relative">
-      <div id="carousel-track" class="flex transition-transform duration-500" style="transform: translateX(0%)">
-        
-        <!-- Slide 1 -->
-        <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-          <img src="images/SLSBA.png" alt="SLSBA Project"  class="w-full md:w-1/2 rounded-xl shadow-lg" />
-          <div class="text-left md:w-1/2">
-            <h4 class="text-2xl font-bold mb-4">SLSBA Project (Sri Lanka Schools Badminton Association)</h4>
-            <p class="text-gray-300 mb-4">A full MERN stack dashboard for Sri Lanka Schools Badminton Association.</p>
-            <div class="flex flex-wrap gap-3 mb-6">
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-purple-400">&lt;/&gt;</span> React
-              </span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-purple-400">&lt;/&gt;</span> Node.js
-              </span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-purple-400">&lt;/&gt;</span> MongoDB
-              </span>
-            </div>
-            <div class="flex gap-4">
-              <a href="https://github.com/Umesh123971" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-code"></i> View Code
-              </a>
-              <a href="https://slsba.onrender.com/" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-external-link-alt"></i> Visit Website
-              </a>
-            </div>
+<!-- Carousel Wrapper -->
+<div class="relative max-w-6xl mx-auto px-6">
+  <!-- Slides -->
+  <div id="project-carousel" class="overflow-hidden relative">
+    <div id="carousel-track" class="flex transition-transform duration-500" style="transform: translateX(0%)">
+      
+      <!-- Slide 1 -->
+      <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
+        <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+        <div class="text-left md:w-1/2">
+          <h4 class="text-2xl font-bold mb-4">SLSBA Project (Sri Lanka Schools Badminton Association)</h4>
+          <p class="text-gray-300 mb-4">A full MERN stack dashboard for Sri Lanka Schools Badminton Association.</p>
+          <div class="flex flex-wrap gap-3 mb-6">
+            <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+              <span class="text-purple-400">&lt;/&gt;</span> React
+            </span>
+            <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+              <span class="text-purple-400">&lt;/&gt;</span> Node.js
+            </span>
+            <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+              <span class="text-purple-400">&lt;/&gt;</span> MongoDB
+            </span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://github.com/Umesh123971" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+              <i class="fas fa-code"></i> View Code
+            </a>
+            <a href="https://slsba.onrender.com/" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+              <i class="fas fa-external-link-alt"></i> Visit Website
+            </a>
           </div>
         </div>
-
-        <!-- Slide 2 -->
-        <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-          <img src="images/FT1.png" alt="FT1 Project"  class="w-full md:w-1/2 rounded-xl shadow-lg" />
-          <div class="text-left md:w-1/2">
-            <h4 class="text-2xl font-bold mb-4">Finance Tracker App</h4>
-            <p class="text-gray-300 mb-4">Android app to track income, expenses, and monthly budgets.</p>
-            <div class="flex flex-wrap gap-3 mb-6">
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-purple-400">&lt;/&gt;</span> Kotlin
-              </span>
-              
-            </div>
-            <div class="flex gap-4">
-              <a href="https://github.com/Umesh123971" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-code"></i> View Code
-              </a>
-              <a href="#" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-external-link-alt"></i> Android Studio
-              </a>
-            </div>
-          </div>
-        </div>
-
       </div>
-    </div>
 
-    <!-- Navigation Buttons -->
-    <div class="flex justify-center mt-10 gap-10 text-2xl">
-      <button onclick="prevSlide()" class="hover:text-purple-400 transition"><i class="fas fa-chevron-left"></i></button>
-      <button onclick="nextSlide()" class="hover:text-purple-400 transition"><i class="fas fa-chevron-right"></i></button>
-    </div>
+      <!-- Slide 2 -->
+      <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
+        <img src="images/FT1.png" alt="FT1 Project" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+        <div class="text-left md:w-1/2">
+          <h4 class="text-2xl font-bold mb-4">Finance Tracker App</h4>
+          <p class="text-gray-300 mb-4">Android app to track income, expenses, and monthly budgets.</p>
+          <div class="flex flex-wrap gap-3 mb-6">
+            <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+              <span class="text-purple-400">&lt;/&gt;</span> Kotlin
+            </span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://github.com/Umesh123971" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+              <i class="fas fa-code"></i> View Code
+            </a>
+            <a href="#" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+              <i class="fas fa-external-link-alt"></i> Android Studio
+            </a>
+          </div>
+        </div>
+      </div>
 
-    <!-- Dot Indicators -->
-    <div class="flex justify-center mt-4 gap-2" id="carousel-dots">
-      <span class="w-3 h-3 bg-purple-500 rounded-full"></span>
-      <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+      <!-- 🌈 Slide 3: Rainbowpages.lk Redesign -->
+      <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
+        <img src="C:\Users\POWER USER\my-portfolio\images\figma.png" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+
+        <div class="text-left md:w-1/2">
+          <h4 class="text-2xl font-bold mb-4">Rainbowpages.lk Redesign (Figma Prototype)</h4>
+          <p class="text-gray-300 mb-4">
+            A modern UI/UX redesign of the Rainbowpages.lk website, created in Figma. This prototype focuses on improving usability,
+            layout consistency, accessibility, and visual hierarchy — addressing key user pain points identified through heuristic analysis and testing.
+          </p>
+          <div class="flex flex-wrap gap-3 mb-6">
+            <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+              🎨 Figma
+            </span>
+            <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+              🧠 UI/UX Research
+            </span>
+            <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+              ⚙️ Prototype Design
+            </span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://www.figma.com/design/3TIIugwYQtcxAieBp1Rg3z/Untitled?node-id=0-1&t=22btnn5PoXFUalkj-0" 
+               target="_blank" 
+               class="bg-pink-500 hover:bg-pink-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+              <i class="fas fa-paint-brush"></i> View Prototype
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
+
+  <!-- Navigation Buttons -->
+  <div class="flex justify-center mt-10 gap-10 text-2xl">
+    <button onclick="prevSlide()" class="hover:text-purple-400 transition"><i class="fas fa-chevron-left"></i></button>
+    <button onclick="nextSlide()" class="hover:text-purple-400 transition"><i class="fas fa-chevron-right"></i></button>
+  </div>
+
+  <!-- Dot Indicators -->
+  <div class="flex justify-center mt-4 gap-2" id="carousel-dots">
+    <span class="w-3 h-3 bg-purple-500 rounded-full"></span>
+    <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+    <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+  </div>
+</div>
 </section>
 <!-- ✅ END: My Projects Carousel Section -->
+
 
 <!-- ✅ Carousel Script -->
 <script>
@@ -440,15 +471,15 @@
 
 
 
-
 <!-- ✅ START: All Projects Section -->
 <section class="py-20 text-center bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] text-white">
   <h2 class="text-4xl font-bold mb-2">All Projects</h2>
 
   <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 mt-10">
+    
     <!-- Project 1 -->
     <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-      <img src="images/SLSBA.png" alt="SLSBA Project"  class="w-full h-48 object-cover">
+      <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full h-48 object-cover">
       <div class="p-6">
         <h3 class="text-xl font-bold mb-2">SLSBA Project (Sri Lanka Schools Badminton Association)</h3>
         <p class="text-gray-400 mb-4">A full MERN stack dashboard for Sri Lanka Schools Badminton Association.</p>
@@ -468,7 +499,7 @@
 
     <!-- Project 2 -->
     <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-      <img src="images/FT.png" alt="FT Project"  class="w-full h-48 object-cover">
+      <img src="images/FT.png" alt="FT Project" class="w-full h-48 object-cover">
       <div class="p-6">
         <h3 class="text-xl font-bold mb-2">Finance Tracker (Kotlin)</h3>
         <p class="text-gray-400 mb-4">Android app to track income, expenses, and monthly budgets.</p>
@@ -484,9 +515,33 @@
         </div>
       </div>
     </div>
+
+    <!-- ✅ Project 3: Rainbowpages.lk Redesign -->
+    <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+      <img src="C:\Users\POWER USER\my-portfolio\images\port.png" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Rainbowpages.lk (UI/UX Redesign Prototype)</h3>
+        <p class="text-gray-400 mb-4">A modern redesign of the Rainbowpages.lk platform, focusing on improved usability and visual consistency. Designed using Figma.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Figma</span>
+          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">UI Design</span>
+          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Prototyping</span>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://www.figma.com/design/3TIIugwYQtcxAieBp1Rg3z/Untitled?node-id=0-1&t=4AkdRpw315k9U6Wk-1" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
+            <i class="fas fa-palette mr-2"></i> View Prototype
+          </a>
+          <a href="https://www.rainbowpages.lk" target="_blank" class="border border-gray-500 hover:border-white text-white px-4 py-2 rounded-full text-sm">
+            Live Site
+          </a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 <!-- ✅ END: All Projects Section -->
+
 
 
 
