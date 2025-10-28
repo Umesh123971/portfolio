@@ -23,6 +23,11 @@
       border-bottom: 3px solid #3b82f6;
       color: white;
     }
+    /* ✅ Added: Fallback for missing images */
+    img[src*="gym.jpeg"] {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      object-fit: cover;
+    }
   </style>
 </head>
 
@@ -91,7 +96,7 @@
               As an aspiring Full-Stack Developer from SLIIT, I'm passionate about building complete digital experiences — from robust backends to modern user interfaces. I thrive on solving problems, optimizing performance, and delivering seamless user journeys.
             </p>
 
-            <!-- ✅ FIXED: CV / Resume Buttons with both View and Download options -->
+            <!-- ✅ CV / Resume Buttons -->
             <div class="flex flex-col sm:flex-row gap-4 mt-6">
               <!-- View Resume Button -->
               <a href="images/CV-Resume.pdf" target="_blank" rel="noopener noreferrer"
@@ -315,7 +320,7 @@
 
           <!-- Slide 1: SLSBA Project -->
           <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-            <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full md:w-1/2 rounded-xl shadow-lg" onerror="this.src='https://via.placeholder.com/800x600/6366f1/ffffff?text=SLSBA+Project'" />
             <div class="text-left md:w-1/2">
               <h4 class="text-2xl font-bold mb-4">SLSBA Project (Sri Lanka Schools Badminton Association)</h4>
               <p class="text-gray-300 mb-4">A full MERN stack dashboard for Sri Lanka Schools Badminton Association.</p>
@@ -343,7 +348,7 @@
 
           <!-- Slide 2: 21C Care Pizza Billing System -->
           <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-            <img src="images/pizza.png" alt="21C Care Pizza Billing System" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <img src="images/pizza.png" alt="21C Care Pizza Billing System" class="w-full md:w-1/2 rounded-xl shadow-lg" onerror="this.src='https://via.placeholder.com/800x600/fbbf24/ffffff?text=Pizza+Billing'" />
             <div class="text-left md:w-1/2">
               <h4 class="text-2xl font-bold mb-4">21C Care Pizza Billing System</h4>
               <p class="text-gray-300 mb-4">
@@ -376,7 +381,7 @@
 
           <!-- Slide 3: Finance Tracker App -->
           <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-            <img src="images/ft.jpeg" alt="Finance Tracker App" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <img src="images/ft.jpeg" alt="Finance Tracker App" class="w-full md:w-1/2 rounded-xl shadow-lg" onerror="this.src='https://via.placeholder.com/800x600/10b981/ffffff?text=Finance+Tracker'" />
             <div class="text-left md:w-1/2">
               <h4 class="text-2xl font-bold mb-4">Finance Tracker App</h4>
               <p class="text-gray-300 mb-4">Android app to track income, expenses, and monthly budgets.</p>
@@ -398,7 +403,7 @@
 
           <!-- Slide 4: Rainbowpages.lk Redesign -->
           <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-            <img src="images/fu.png" alt="Rainbowpages.lk Prototype" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <img src="images/fu.png" alt="Rainbowpages.lk Prototype" class="w-full md:w-1/2 rounded-xl shadow-lg" onerror="this.src='https://via.placeholder.com/800x600/ec4899/ffffff?text=Rainbowpages+Redesign'" />
             <div class="text-left md:w-1/2">
               <h4 class="text-2xl font-bold mb-4">Rainbowpages.lk Redesign (Figma Prototype)</h4>
               <p class="text-gray-300 mb-4">
@@ -421,7 +426,7 @@
 
           <!-- Slide 5: HUGO Real Estate Mobile App UI Design -->
           <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-            <img src="images/fu.png" alt="HUGO Real Estate Prototype" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <img src="images/fu.png" alt="HUGO Real Estate Prototype" class="w-full md:w-1/2 rounded-xl shadow-lg" onerror="this.src='https://via.placeholder.com/800x600/8b5cf6/ffffff?text=HUGO+Real+Estate'" />
             <div class="text-left md:w-1/2">
               <h4 class="text-2xl font-bold mb-4">HUGO Real Estate Mobile App UI Design</h4>
               <p class="text-gray-300 mb-4">
@@ -444,7 +449,7 @@
 
           <!-- Slide 6: Ceylon Fitness Hub -->
           <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-           <img src="images/gym.jpeg" alt="Gym Management System" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <img src="images/gym.jpeg" alt="Gym Management System" class="w-full h-48 object-cover" onerror="this.src='https://via.placeholder.com/400x300/fbbf24/ffffff?text=Pizza+Billing'">
             <div class="text-left md:w-1/2">
               <h4 class="text-2xl font-bold mb-4">Ceylon Fitness Hub 🏋️‍♂️</h4>
               <p class="text-gray-300 mb-4">
@@ -496,7 +501,7 @@
       
       <!-- Project 1 -->
       <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-        <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full h-48 object-cover">
+        <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full h-48 object-cover" onerror="this.src='https://via.placeholder.com/400x300/6366f1/ffffff?text=SLSBA'">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">SLSBA Project (Sri Lanka Schools Badminton Association)</h3>
           <p class="text-gray-400 mb-4">A full MERN stack dashboard for Sri Lanka Schools Badminton Association.</p>
@@ -516,7 +521,7 @@
 
       <!-- Project 2 -->
       <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-        <img src="images/FT.png" alt="FT Project" class="w-full h-48 object-cover">
+        <img src="images/FT.png" alt="FT Project" class="w-full h-48 object-cover" onerror="this.src='https://via.placeholder.com/400x300/10b981/ffffff?text=Finance+Tracker'">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">Finance Tracker (Kotlin)</h3>
           <p class="text-gray-400 mb-4">Android app to track income, expenses, and monthly budgets.</p>
@@ -535,7 +540,7 @@
 
       <!-- Project 3: Rainbowpages.lk Redesign -->
       <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-        <img src="images/fu.png" class="w-full h-48 object-cover" alt="Rainbowpages.lk UI Prototype" />
+        <img src="images/fu.png" class="w-full h-48 object-cover" alt="Rainbowpages.lk UI Prototype" onerror="this.src='https://via.placeholder.com/400x300/ec4899/ffffff?text=Rainbowpages'" />
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">Rainbowpages.lk (UI/UX Redesign Prototype)</h3>
           <p class="text-gray-400 mb-4">A modern redesign of the Rainbowpages.lk platform, focusing on improved usability and visual consistency. Designed using Figma.</p>
@@ -557,7 +562,7 @@
 
       <!-- Project 4: HUGO Real Estate Mobile App -->
       <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-        <img src="images/fu.png" alt="HUGO Real Estate Prototype" class="w-full h-48 object-cover" />
+        <img src="images/fu.png" alt="HUGO Real Estate Prototype" class="w-full h-48 object-cover" onerror="this.src='https://via.placeholder.com/400x300/8b5cf6/ffffff?text=HUGO+Real+Estate'" />
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">HUGO Real Estate Mobile App UI Design</h3>
           <p class="text-gray-400 mb-4">
@@ -580,7 +585,7 @@
 
       <!-- Project 5: 21C Care Pizza Billing System -->
       <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-        <img src="images/pizza.png" alt="21C Care Pizza Billing System" class="w-full h-48 object-cover">
+        <img src="images/pizza.png" alt="21C Care Pizza Billing System" class="w-full h-48 object-cover" onerror="this.src='https://via.placeholder.com/400x300/fbbf24/ffffff?text=Pizza+Billing'">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">21C Care Pizza Billing System</h3>
           <p class="text-gray-400 mb-4">
@@ -592,7 +597,7 @@
             <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
           </div>
           <div class="flex gap-3">
-            <a href="https://github.com/Umesh123971" 
+            <a href="https://github.com/Umesh123971/21c-care-pizza-billing" 
                target="_blank" 
                class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
               <i class="fas fa-code mr-2"></i> View Code
@@ -607,7 +612,7 @@
 
       <!-- Project 6: 21C Fitness Hub -->
       <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-        <img src="images/gym.jpg" alt="Gym Management System" class="w-full h-48 object-cover">
+        <img src="images/gym.jpeg" alt="Gym Management System" class="w-full h-48 object-cover" onerror="this.src='https://via.placeholder.com/400x300/fbbf24/ffffff?text=Pizza+Billing'">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">Ceylon Fitness Hub 🏋️‍♂️</h3>
           <p class="text-gray-400 mb-4">
