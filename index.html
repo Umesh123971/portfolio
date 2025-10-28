@@ -91,14 +91,20 @@
               As an aspiring Full-Stack Developer from SLIIT, I'm passionate about building complete digital experiences — from robust backends to modern user interfaces. I thrive on solving problems, optimizing performance, and delivering seamless user journeys.
             </p>
 
-           <!-- CV / Resume Button with top margin -->
-<a href="images/CV%20Resume.pdf" target="_blank"
-   class="mt-4 inline-block w-max bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition transform duration-300">
-  📄 View Resume
-</a>
+            <!-- ✅ FIXED: CV / Resume Buttons with both View and Download options -->
+            <div class="flex flex-col sm:flex-row gap-4 mt-6">
+              <!-- View Resume Button -->
+              <a href="images/CV-Resume.pdf" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition transform duration-300">
+                <i class="fas fa-eye"></i> View Resume
+              </a>
 
-
-
+              <!-- Download Resume Button -->
+              <a href="images/CV-Resume.pdf" download="Umesh_Gimhan_CV.pdf"
+                 class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-green-600 to-teal-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition transform duration-300">
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+            </div>
 
           </div>
 
@@ -144,7 +150,7 @@
                 <i class="fas fa-address-book text-purple-400"></i> Contact Information
               </h3>
               <ul class="space-y-3 text-gray-300">
-                <li><i class="fas fa-phone-alt text-purple-400 mr-2"></i> +75 368 9480</li>
+                <li><i class="fas fa-phone-alt text-purple-400 mr-2"></i> +94 75 368 9480</li>
                 <li><i class="fas fa-envelope text-purple-400 mr-2"></i> umeshgimhan723@gmail.com</li>
                 <li><i class="fas fa-map-marker-alt text-purple-400 mr-2"></i> 16/30 Diygama Road Kahathuduwa</li>
               </ul>
@@ -156,7 +162,6 @@
       <!-- Education Content -->
       <div id="education" class="tab-content hidden">
         <div class="space-y-8">
-          <!-- Your education cards stay unchanged -->
           <div class="glass-card p-6 rounded-xl shadow-lg flex justify-between items-start">
             <div>
               <h3 class="text-lg font-bold text-white">Sri Lanka Institute of Information Technology</h3>
@@ -186,646 +191,576 @@
         </div>
       </div>
 
-     <!-- ✅ Updated Experience Content -->
-<div id="experience" class="tab-content hidden">
-  <div class="space-y-8">
-    <div class="glass-card p-6 rounded-xl shadow-lg relative">
-      <div class="flex justify-between items-start">
-        <div>
-          <h3 class="text-lg font-bold text-white">Not yet</h3>
-          
+      <!-- Experience Content -->
+      <div id="experience" class="tab-content hidden">
+        <div class="space-y-8">
+          <div class="glass-card p-6 rounded-xl shadow-lg relative">
+            <div class="flex justify-between items-start">
+              <div>
+                <h3 class="text-lg font-bold text-white">Not yet</h3>
+              </div>
+              <div class="bg-gradient-to-r from-blue-500 to-pink-500 text-white px-3 py-1 rounded-full text-sm font-semibold"></div>
+            </div>
+            <div class="h-1 mt-4 bg-gradient-to-r from-blue-500 to-pink-500 rounded-full"></div>
+          </div>
         </div>
-        <div class="bg-gradient-to-r from-blue-500 to-pink-500 text-white px-3 py-1 rounded-full text-sm font-semibold"></div>
       </div>
-      <div class="h-1 mt-4 bg-gradient-to-r from-blue-500 to-pink-500 rounded-full"></div>
-    </div>
-  </div> <!-- ✅ This closing div was missing -->
-</div> <!-- ✅ Ends experience tab -->
 
+      <!-- Activities Content -->
+      <div id="activities" class="tab-content hidden">
+        <div class="grid md:grid-cols-2 gap-6">
 
-   
-      <!-- Placeholder Activities -->
-    <!-- Activities Content -->
-<div id="activities" class="tab-content hidden">
-  <div class="grid md:grid-cols-2 gap-6">
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-user-shield text-xl text-blue-300 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">Served as a School Prefect attached to the Prefects' Guild</h3>
+            </div>
+          </div>
 
-    <!-- Activity Card: Prefect -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-user-shield text-xl text-blue-300 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">Served as a School Prefect attached to the Prefects' Guild</h3>
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-baseball-ball text-xl text-green-300 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">
+                Represented Isipathana College Cricket teams: Under 13, Under 15, Under 17 A, 2nd XI, and 1st XI
+              </h3>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-flag text-xl text-orange-300 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">
+                Played for the <strong>Colombo District Cricket Team</strong> while in the Under 15 team
+              </h3>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-medal text-xl text-purple-300 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">
+                Awarded <strong>SLIIT Colours Insignia</strong> for Loyalty and Performance in Cricket (2023)
+              </h3>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-trophy text-xl text-pink-300 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">
+                Champions at the SLIIT Inter Faculty Sports Meet 2023 (Cricket)
+              </h3>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-briefcase text-xl text-pink-300 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">Organizer of the Commerce Society</h3>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-spa text-xl text-purple-300 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">Organizer of the Buddhist Society</h3>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-paw text-xl text-yellow-400 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">Organizer of the Leo Club</h3>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-camera text-xl text-teal-300 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">Organizer of the Photography Society</h3>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
+            <i class="fas fa-university text-xl text-red-300 mt-1"></i>
+            <div>
+              <h3 class="text-white font-semibold">Manager of the Peoples' Bank School Branch</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card mt-8 p-8 rounded-2xl text-center shadow-lg">
+          <p class="text-xl font-semibold text-gray-100 italic">
+            "I am committed to learning and growth, excited to embark on new ventures and contribute to the success of any organization I join."
+          </p>
+          <div class="h-1 mt-4 w-24 mx-auto bg-gradient-to-r from-blue-400 to-pink-400 rounded-full"></div>
+        </div>
       </div>
-    </div>
-
-
-
-    <!-- Activity Card: School Cricket -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-baseball-ball text-xl text-green-300 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">
-          Represented Isipathana College Cricket teams: Under 13, Under 15, Under 17 A, 2nd XI, and 1st XI
-        </h3>
-      </div>
-    </div>
-
-    <!-- Activity Card: Colombo District Cricket Team -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-flag text-xl text-orange-300 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">
-          Played for the <strong>Colombo District Cricket Team</strong> while in the Under 15 team
-        </h3>
-      </div>
-    </div>
-
-    <!-- Activity Card: SLIIT Colours Insignia -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-medal text-xl text-purple-300 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">
-          Awarded <strong>SLIIT Colours Insignia</strong> for Loyalty and Performance in Cricket (2023)
-        </h3>
-      </div>
-    </div>
-
-    <!-- Activity Card: Inter Faculty Champions -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-trophy text-xl text-pink-300 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">
-          Champions at the SLIIT Inter Faculty Sports Meet 2023 (Cricket)
-        </h3>
-      </div>
-    </div>
-
-    <!-- Activity Card: Commerce Society -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-briefcase text-xl text-pink-300 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">Organizer of the Commerce Society</h3>
-      </div>
-    </div>
-
-    <!-- Activity Card: Buddhist Society -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-spa text-xl text-purple-300 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">Organizer of the Buddhist Society</h3>
-      </div>
-    </div>
-
-    <!-- Activity Card: Leo Club -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-paw text-xl text-yellow-400 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">Organizer of the Leo Club</h3>
-      </div>
-    </div>
-
-    <!-- Activity Card: Photography Society -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-camera text-xl text-teal-300 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">Organizer of the Photography Society</h3>
-      </div>
-    </div>
-
-    <!-- Activity Card: Peoples’ Bank School Branch -->
-    <div class="glass-card p-6 rounded-xl shadow-lg flex items-start gap-4">
-      <i class="fas fa-university text-xl text-red-300 mt-1"></i>
-      <div>
-        <h3 class="text-white font-semibold">Manager of the Peoples’ Bank School Branch</h3>
-      </div>
-    </div>
-  </div>
-
-  <!-- Final Quote -->
-  <div class="glass-card mt-8 p-8 rounded-2xl text-center shadow-lg">
-    <p class="text-xl font-semibold text-gray-100 italic">
-      "I am committed to learning and growth, excited to embark on new ventures and contribute to the success of any organization I join."
-    </p>
-    <div class="h-1 mt-4 w-24 mx-auto bg-gradient-to-r from-blue-400 to-pink-400 rounded-full"></div>
-  </div>
-</div>
 
     </div>
   </section>
 
+  <!-- My Projects Carousel Section -->
+  <section id="projects" class="py-20 text-center bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] text-white">
+    <h2 class="text-4xl font-bold mb-2">
+      <span class="text-white">My</span> <span class="text-purple-400">Projects</span>
+    </h2>
+    <p class="text-gray-300 mb-10">Here are a few apps and systems I've crafted — full of energy, code, and lots of coffee ☕.</p>
 
+    <h3 class="text-2xl font-semibold mb-8">Featured Work</h3>
 
+    <div class="relative max-w-6xl mx-auto px-6">
+      <div id="project-carousel" class="overflow-hidden relative">
+        <div id="carousel-track" class="flex transition-transform duration-500" style="transform: translateX(0%)">
 
-<!-- ✅ START: My Projects Carousel Section -->
-<section id="projects" class="py-20 text-center bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] text-white">
-  <h2 class="text-4xl font-bold mb-2">
-    <span class="text-white">My</span> <span class="text-purple-400">Projects</span>
-  </h2>
-  <p class="text-gray-300 mb-10">Here are a few apps and systems I've crafted — full of energy, code, and lots of coffee ☕.</p>
-
-  <h3 class="text-2xl font-semibold mb-8">Featured Work</h3>
-
-  <!-- Carousel Wrapper -->
-  <div class="relative max-w-6xl mx-auto px-6">
-    <!-- Slides -->
-    <div id="project-carousel" class="overflow-hidden relative">
-      <div id="carousel-track" class="flex transition-transform duration-500" style="transform: translateX(0%)">
-
-        <!-- 🏸 Slide 1: SLSBA Project -->
-        <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-          <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full md:w-1/2 rounded-xl shadow-lg" />
-          <div class="text-left md:w-1/2">
-            <h4 class="text-2xl font-bold mb-4">SLSBA Project (Sri Lanka Schools Badminton Association)</h4>
-            <p class="text-gray-300 mb-4">A full MERN stack dashboard for Sri Lanka Schools Badminton Association.</p>
-            <div class="flex flex-wrap gap-3 mb-6">
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-purple-400">&lt;/&gt;</span> React
-              </span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-purple-400">&lt;/&gt;</span> Node.js
-              </span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-purple-400">&lt;/&gt;</span> MongoDB
-              </span>
+          <!-- Slide 1: SLSBA Project -->
+          <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
+            <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <div class="text-left md:w-1/2">
+              <h4 class="text-2xl font-bold mb-4">SLSBA Project (Sri Lanka Schools Badminton Association)</h4>
+              <p class="text-gray-300 mb-4">A full MERN stack dashboard for Sri Lanka Schools Badminton Association.</p>
+              <div class="flex flex-wrap gap-3 mb-6">
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+                  <span class="text-purple-400">&lt;/&gt;</span> React
+                </span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+                  <span class="text-purple-400">&lt;/&gt;</span> Node.js
+                </span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+                  <span class="text-purple-400">&lt;/&gt;</span> MongoDB
+                </span>
+              </div>
+              <div class="flex gap-4">
+                <a href="https://github.com/Umesh123971" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+                  <i class="fas fa-code"></i> View Code
+                </a>
+                <a href="https://slsba.onrender.com/" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+                  <i class="fas fa-external-link-alt"></i> Visit Website
+                </a>
+              </div>
             </div>
-            <div class="flex gap-4">
-              <a href="https://github.com/Umesh123971" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-code"></i> View Code
-              </a>
-              <a href="https://slsba.onrender.com/" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-external-link-alt"></i> Visit Website
-              </a>
+          </div>
+
+          <!-- Slide 2: 21C Care Pizza Billing System -->
+          <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
+            <img src="images/pizza.png" alt="21C Care Pizza Billing System" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <div class="text-left md:w-1/2">
+              <h4 class="text-2xl font-bold mb-4">21C Care Pizza Billing System</h4>
+              <p class="text-gray-300 mb-4">
+                A full-stack web application for managing pizza shop operations, including item management and invoice generation with automatic tax calculations and responsive design.
+              </p>
+              <div class="flex flex-wrap gap-3 mb-6">
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+                  <span class="text-yellow-400">&lt;/&gt;</span> Go (Golang)
+                </span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+                  <span class="text-yellow-400">&lt;/&gt;</span> React + TypeScript
+                </span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+                  <span class="text-yellow-400">&lt;/&gt;</span> Tailwind CSS
+                </span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+                  <span class="text-yellow-400">&lt;/&gt;</span> PostgreSQL + GORM
+                </span>
+              </div>
+              <div class="flex gap-4">
+                <a href="https://github.com/Umesh123971/21c-care-pizza-billing" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2" target="_blank">
+                  <i class="fas fa-code"></i> View Code
+                </a>
+                <a href="#" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Visit Website
+                </a>
+              </div>
             </div>
+          </div>
+
+          <!-- Slide 3: Finance Tracker App -->
+          <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
+            <img src="images/ft.jpeg" alt="Finance Tracker App" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <div class="text-left md:w-1/2">
+              <h4 class="text-2xl font-bold mb-4">Finance Tracker App</h4>
+              <p class="text-gray-300 mb-4">Android app to track income, expenses, and monthly budgets.</p>
+              <div class="flex flex-wrap gap-3 mb-6">
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
+                  <span class="text-purple-400">&lt;/&gt;</span> Kotlin
+                </span>
+              </div>
+              <div class="flex gap-4">
+                <a href="https://github.com/Umesh123971" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+                  <i class="fas fa-code"></i> View Code
+                </a>
+                <a href="#" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+                  <i class="fas fa-external-link-alt"></i> Android Studio
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4: Rainbowpages.lk Redesign -->
+          <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
+            <img src="images/fu.png" alt="Rainbowpages.lk Prototype" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <div class="text-left md:w-1/2">
+              <h4 class="text-2xl font-bold mb-4">Rainbowpages.lk Redesign (Figma Prototype)</h4>
+              <p class="text-gray-300 mb-4">
+                A modern UI/UX redesign of the Rainbowpages.lk website, created in Figma. Focused on usability, accessibility, and visual hierarchy.
+              </p>
+              <div class="flex flex-wrap gap-3 mb-6">
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">🎨 Figma</span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">🧠 UI/UX Research</span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">⚙️ Prototype Design</span>
+              </div>
+              <div class="flex gap-4">
+                <a href="https://www.figma.com/design/3TIIugwYQtcxAieBp1Rg3z/Untitled?node-id=0-1&t=22btnn5PoXFUalkj-0" 
+                   target="_blank" 
+                   class="bg-pink-500 hover:bg-pink-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+                  <i class="fas fa-paint-brush"></i> View Prototype
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5: HUGO Real Estate Mobile App UI Design -->
+          <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
+            <img src="images/fu.png" alt="HUGO Real Estate Prototype" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <div class="text-left md:w-1/2">
+              <h4 class="text-2xl font-bold mb-4">HUGO Real Estate Mobile App UI Design</h4>
+              <p class="text-gray-300 mb-4">
+                A clean and modern mobile application UI designed for HUGO Real Estate in Australia.
+              </p>
+              <div class="flex flex-wrap gap-3 mb-6">
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">🎨 Figma</span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">📱 Mobile UI Design</span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">🧠 Prototyping</span>
+              </div>
+              <div class="flex gap-4">
+                <a href="https://www.figma.com/design/5MvHqGkgreiijAwnJJ0b7V/Untitled?node-id=0-1&t=K27XlMcn297kThVx-1"
+                   target="_blank"
+                   class="bg-pink-500 hover:bg-pink-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+                  <i class="fas fa-paint-brush"></i> View Prototype
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6: Ceylon Fitness Hub -->
+          <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
+            <img src="images/gym.jpg" alt="Gym Management System" class="w-full md:w-1/2 rounded-xl shadow-lg" />
+            <div class="text-left md:w-1/2">
+              <h4 class="text-2xl font-bold mb-4">Ceylon Fitness Hub 🏋️‍♂️</h4>
+              <p class="text-gray-300 mb-4">
+                A comprehensive fitness center management system built with the MERN stack (MongoDB, Express.js, React, Vite) and Tailwind CSS. Includes multi-role authentication, class scheduling, payment tracking, and real-time analytics.
+              </p>
+              <div class="flex flex-wrap gap-3 mb-6">
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1"><span class="text-purple-400">&lt;/&gt;</span> React</span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1"><span class="text-purple-400">&lt;/&gt;</span> Node.js</span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1"><span class="text-purple-400">&lt;/&gt;</span> MongoDB</span>
+                <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1"><span class="text-purple-400">&lt;/&gt;</span> Tailwind CSS</span>
+              </div>
+              <div class="flex gap-4">
+                <a href="https://github.com/Umesh123971/21c-fitness-hub" target="_blank" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+                  <i class="fas fa-code"></i> View Code
+                </a>
+                <a href="https://fitness-hub-1.onrender.com" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
+                  <i class="fas fa-external-link-alt"></i> Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="flex justify-center mt-10 gap-10 text-2xl">
+        <button onclick="prevSlide()" class="hover:text-purple-400 transition"><i class="fas fa-chevron-left"></i></button>
+        <button onclick="nextSlide()" class="hover:text-purple-400 transition"><i class="fas fa-chevron-right"></i></button>
+      </div>
+
+      <!-- Dot Indicators -->
+      <div class="flex justify-center mt-4 gap-2" id="carousel-dots">
+        <span class="w-3 h-3 bg-purple-500 rounded-full"></span>
+        <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+        <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+        <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+        <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+        <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Projects Section -->
+  <section class="py-20 text-center bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] text-white">
+    <h2 class="text-4xl font-bold mb-2">All Projects</h2>
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 mt-10">
+      
+      <!-- Project 1 -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+        <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">SLSBA Project (Sri Lanka Schools Badminton Association)</h3>
+          <p class="text-gray-400 mb-4">A full MERN stack dashboard for Sri Lanka Schools Badminton Association.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">React</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Node.js</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">MongoDB</span>
+          </div>
+          <div class="flex gap-3">
+            <a href="https://github.com/Umesh123971" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
+              <i class="fas fa-code mr-2"></i> Code
+            </a>
+            <a href="https://slsba.onrender.com/" class="border border-gray-500 hover:border-white text-white px-4 py-2 rounded-full text-sm">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+        <img src="images/FT.png" alt="FT Project" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Finance Tracker (Kotlin)</h3>
+          <p class="text-gray-400 mb-4">Android app to track income, expenses, and monthly budgets.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Kotlin</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Android Studio</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">MPAndroidChart</span>
+          </div>
+          <div class="flex gap-3">
+            <a href="https://github.com/Umesh123971" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
+              <i class="fas fa-code mr-2"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: Rainbowpages.lk Redesign -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+        <img src="images/fu.png" class="w-full h-48 object-cover" alt="Rainbowpages.lk UI Prototype" />
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Rainbowpages.lk (UI/UX Redesign Prototype)</h3>
+          <p class="text-gray-400 mb-4">A modern redesign of the Rainbowpages.lk platform, focusing on improved usability and visual consistency. Designed using Figma.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Figma</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">UI Design</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Prototyping</span>
+          </div>
+          <div class="flex gap-3">
+            <a href="https://www.figma.com/design/3TIIugwYQtcxAieBp1Rg3z/Untitled?node-id=0-1&t=4AkdRpw315k9U6Wk-1" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
+              <i class="fas fa-palette mr-2"></i> View Prototype
+            </a>
+            <a href="https://www.rainbowpages.lk" target="_blank" class="border border-gray-500 hover:border-white text-white px-4 py-2 rounded-full text-sm">
+              Live Site
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4: HUGO Real Estate Mobile App -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+        <img src="images/fu.png" alt="HUGO Real Estate Prototype" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">HUGO Real Estate Mobile App UI Design</h3>
+          <p class="text-gray-400 mb-4">
+            A clean and modern mobile UI design for HUGO Real Estate, Australia — expanding business reach through a mobile platform for property discovery.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Figma</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">UI/UX</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Prototyping</span>
+          </div>
+          <div class="flex gap-3">
+            <a href="https://www.figma.com/design/5MvHqGkgreiijAwnJJ0b7V/Untitled?node-id=0-1&t=K27XlMcn297kThVx-1" 
+               target="_blank" 
+               class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
+              <i class="fas fa-palette mr-2"></i> View Prototype
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5: 21C Care Pizza Billing System -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+        <img src="images/pizza.png" alt="21C Care Pizza Billing System" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">21C Care Pizza Billing System</h3>
+          <p class="text-gray-400 mb-4">
+            A full-stack web application for a pizza shop billing system. Features include order management, billing, analytics, and customer insights.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">React + TypeScript</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Go (Golang)</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+          </div>
+          <div class="flex gap-3">
+            <a href="https://github.com/Umesh123971" 
+               target="_blank" 
+               class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
+              <i class="fas fa-code mr-2"></i> View Code
+            </a>
+            <a href="#" 
+               class="border border-gray-500 hover:border-white text-white px-4 py-2 rounded-full text-sm">
+              Demo Soon
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6: 21C Fitness Hub -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+        <img src="images/gym.jpg" alt="Gym Management System" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Ceylon Fitness Hub 🏋️‍♂️</h3>
+          <p class="text-gray-400 mb-4">
+            A comprehensive fitness center management system built with the MERN stack and Tailwind CSS. Includes multi-role authentication, class scheduling, payment tracking, and real-time analytics.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">React</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Node.js</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">MongoDB</span>
+            <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+          </div>
+          <div class="flex gap-3">
+            <a href="https://github.com/Umesh123971/21c-fitness-hub" 
+               target="_blank" 
+               class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
+              <i class="fas fa-code mr-2"></i> View Code
+            </a>
+            <a href="https://fitness-hub-1.onrender.com" 
+               class="border border-gray-500 hover:border-white text-white px-4 py-2 rounded-full text-sm">
+              Visit
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Let's Connect Heading Section -->
+  <section id="contact" class="text-center py-16 px-4 bg-gradient-to-br from-[#0f1628] to-[#1a2240] text-white">
+    <h2 class="text-4xl font-bold mb-4">
+      <span class="text-white">Let's</span> <span class="text-purple-400">Connect</span>
+    </h2>
+    <p class="max-w-xl mx-auto text-lg text-gray-300">
+      I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+    </p>
+  </section>
+
+  <!-- Contact and Message Form Section -->
+  <section class="py-10 px-4 bg-gradient-to-br from-[#121c2e] to-[#1b2340] text-white">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
+      
+      <!-- Left: Contact Info -->
+      <div class="bg-[#1c2a45] rounded-xl p-8 shadow-md">
+        <h2 class="text-2xl font-semibold mb-6">Contact Information</h2>
+
+        <!-- Email -->
+        <div class="flex items-center gap-4 mb-6 bg-[#263857] p-4 rounded-xl">
+          <div class="text-2xl">📧</div>
+          <div>
+            <p class="text-sm text-gray-400">Email</p>
+            <p class="font-medium">umeshgimhan723@gmail.com</p>
           </div>
         </div>
 
-        <!-- 🍕 Slide 2: 21C Care Pizza Billing System -->
-        <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-          <img src="images/pizza.png" alt="21C Care Pizza Billing System" class="w-full md:w-1/2 rounded-xl shadow-lg" />
-          <div class="text-left md:w-1/2">
-            <h4 class="text-2xl font-bold mb-4">21C Care Pizza Billing System</h4>
-            <p class="text-gray-300 mb-4">
-              A full-stack web application for managing pizza shop operations, including item management and invoice generation with automatic tax calculations and responsive design.
-            </p>
-            <div class="flex flex-wrap gap-3 mb-6">
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-yellow-400">&lt;/&gt;</span> Go (Golang)
-              </span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-yellow-400">&lt;/&gt;</span> React + TypeScript
-              </span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-yellow-400">&lt;/&gt;</span> Tailwind CSS
-              </span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-yellow-400">&lt;/&gt;</span> PostgreSQL + GORM
-              </span>
-            </div>
-            <div class="flex gap-4">
-              <a href="https://github.com/Umesh123971/21c-care-pizza-billing" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2" target="_blank">
-                <i class="fas fa-code"></i> View Code
-              </a>
-              <a href="#" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2" target="_blank">
-                <i class="fas fa-external-link-alt"></i> Visit Website
-              </a>
-            </div>
+        <!-- Phone -->
+        <div class="flex items-center gap-4 mb-6 bg-[#263857] p-4 rounded-xl">
+          <div class="text-2xl">📞</div>
+          <div>
+            <p class="text-sm text-gray-400">Phone</p>
+            <p class="font-medium">+94 75 368 9480</p>
           </div>
         </div>
 
-        <!-- 💰 Slide 3: Finance Tracker App -->
-        <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-          <img src="images/ft.jpeg" alt="Finance Tracker App" class="w-full md:w-1/2 rounded-xl shadow-lg" />
-          <div class="text-left md:w-1/2">
-            <h4 class="text-2xl font-bold mb-4">Finance Tracker App</h4>
-            <p class="text-gray-300 mb-4">Android app to track income, expenses, and monthly budgets.</p>
-            <div class="flex flex-wrap gap-3 mb-6">
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">
-                <span class="text-purple-400">&lt;/&gt;</span> Kotlin
-              </span>
-            </div>
-            <div class="flex gap-4">
-              <a href="https://github.com/Umesh123971" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-code"></i> View Code
-              </a>
-              <a href="#" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-external-link-alt"></i> Android Studio
-              </a>
-            </div>
+        <!-- Address -->
+        <div class="flex items-center gap-4 mb-6 bg-[#263857] p-4 rounded-xl">
+          <div class="text-2xl">📍</div>
+          <div>
+            <p class="text-sm text-gray-400">Address</p>
+            <p class="font-medium">16/30 Diygama Road Kahathuduwa</p>
           </div>
         </div>
 
-        <!-- 🌈 Slide 4: Rainbowpages.lk Redesign -->
-        <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-          <img src="images/fu.png" alt="Rainbowpages.lk Prototype" class="w-full md:w-1/2 rounded-xl shadow-lg" />
-          <div class="text-left md:w-1/2">
-            <h4 class="text-2xl font-bold mb-4">Rainbowpages.lk Redesign (Figma Prototype)</h4>
-            <p class="text-gray-300 mb-4">
-              A modern UI/UX redesign of the Rainbowpages.lk website, created in Figma. Focused on usability, accessibility, and visual hierarchy.
-            </p>
-            <div class="flex flex-wrap gap-3 mb-6">
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">🎨 Figma</span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">🧠 UI/UX Research</span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">⚙️ Prototype Design</span>
-            </div>
-            <div class="flex gap-4">
-              <a href="https://www.figma.com/design/3TIIugwYQtcxAieBp1Rg3z/Untitled?node-id=0-1&t=22btnn5PoXFUalkj-0" 
-                 target="_blank" 
-                 class="bg-pink-500 hover:bg-pink-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-paint-brush"></i> View Prototype
-              </a>
-            </div>
+        <!-- Social Links -->
+        <h3 class="text-lg font-semibold mb-4">Connect With Me</h3>
+        <div class="flex gap-4">
+          <a href="https://github.com/Umesh123971" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2c3a56] hover:bg-[#3b4a67] text-xl">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/umeshgimhan" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2c3a56] hover:bg-[#3b4a67] text-xl">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://instagram.com/_u.gimhan_" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2c3a56] hover:bg-[#3b4a67] text-xl">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="mailto:umeshgimhan723@gmail.com" class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2c3a56] hover:bg-[#3b4a67] text-xl">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Message Form -->
+      <div class="bg-[#0f1628] border border-[#2c3a56] rounded-2xl p-8 shadow-xl transition hover:shadow-2xl duration-300">
+        <h2 class="text-2xl font-semibold mb-6 text-white">Send Me a Message</h2>
+        
+        <form action="https://formspree.io/f/mqalpkva" method="POST" class="space-y-5">
+          
+          <!-- Name Field -->
+          <div>
+            <label class="block mb-1 text-sm text-gray-400">Your Name</label>
+            <input 
+              name="name" 
+              type="text" 
+              class="w-full bg-[#1b2c48] p-3 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500" 
+              placeholder="Name" 
+              required />
           </div>
-        </div>
 
-        <!-- 🏠 Slide 5: HUGO Real Estate Mobile App UI Design -->
-        <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-          <img src="images/fu.png" alt="HUGO Real Estate Prototype" class="w-full md:w-1/2 rounded-xl shadow-lg" />
-          <div class="text-left md:w-1/2">
-            <h4 class="text-2xl font-bold mb-4">HUGO Real Estate Mobile App UI Design</h4>
-            <p class="text-gray-300 mb-4">
-              A clean and modern mobile application UI designed for HUGO Real Estate in Australia.
-            </p>
-            <div class="flex flex-wrap gap-3 mb-6">
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">🎨 Figma</span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">📱 Mobile UI Design</span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1">🧠 Prototyping</span>
-            </div>
-            <div class="flex gap-4">
-              <a href="https://www.figma.com/design/5MvHqGkgreiijAwnJJ0b7V/Untitled?node-id=0-1&t=K27XlMcn297kThVx-1"
-                 target="_blank"
-                 class="bg-pink-500 hover:bg-pink-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-paint-brush"></i> View Prototype
-              </a>
-            </div>
+          <!-- Email Field -->
+          <div>
+            <label class="block mb-1 text-sm text-gray-400">Your Email</label>
+            <input 
+              name="email" 
+              type="email" 
+              class="w-full bg-[#1b2c48] p-3 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" 
+              placeholder="Email" 
+              required />
           </div>
-        </div>
 
-        <!-- 🏋️‍♂️ Slide 6: Ceylon Fitness Hub -->
-        <div class="min-w-full flex flex-col md:flex-row items-center justify-center gap-8 p-6 glass-card rounded-2xl">
-          <img src="images/gym.jpeg" alt="Gym Management System" class="w-full h-48 object-cover">
-          <div class="text-left md:w-1/2">
-            <h4 class="text-2xl font-bold mb-4">Ceylon Fitness Hub 🏋️‍♂️</h4>
-            <p class="text-gray-300 mb-4">
-              A comprehensive fitness center management system built with the MERN stack (MongoDB, Express.js, React, Vite) and Tailwind CSS. Includes multi-role authentication, class scheduling, payment tracking, and real-time analytics.
-            </p>
-            <div class="flex flex-wrap gap-3 mb-6">
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1"><span class="text-purple-400">&lt;/&gt;</span> React</span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1"><span class="text-purple-400">&lt;/&gt;</span> Node.js</span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1"><span class="text-purple-400">&lt;/&gt;</span> MongoDB</span>
-              <span class="bg-gray-700 px-4 py-1 rounded-full text-sm flex items-center gap-1"><span class="text-purple-400">&lt;/&gt;</span> Tailwind CSS</span>
-            </div>
-            <div class="flex gap-4">
-              <a href="https://github.com/Umesh123971/21c-fitness-hub" target="_blank" class="bg-teal-500 hover:bg-teal-600 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-code"></i> View Code
-              </a>
-              <a href="https://fitness-hub-1.onrender.com" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold flex items-center gap-2">
-                <i class="fas fa-external-link-alt"></i> Visit Website
-              </a>
-            </div>
+          <!-- Subject Field -->
+          <div>
+            <label class="block mb-1 text-sm text-gray-400">Subject</label>
+            <input 
+              name="subject" 
+              type="text" 
+              class="w-full bg-[#1b2c48] p-3 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500" 
+              placeholder="Subject" 
+              required />
           </div>
-        </div>
 
-      </div>
-    </div>
+          <!-- Message Field -->
+          <div>
+            <label class="block mb-1 text-sm text-gray-400">Your Message</label>
+            <textarea 
+              name="message" 
+              rows="4"
+              class="w-full bg-[#1b2c48] p-3 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500" 
+              placeholder="I'd like to discuss a potential project..." 
+              required></textarea>
+          </div>
 
-    <!-- Navigation Buttons -->
-    <div class="flex justify-center mt-10 gap-10 text-2xl">
-      <button onclick="prevSlide()" class="hover:text-purple-400 transition"><i class="fas fa-chevron-left"></i></button>
-      <button onclick="nextSlide()" class="hover:text-purple-400 transition"><i class="fas fa-chevron-right"></i></button>
-    </div>
+          <!-- Submit Button -->
+          <button 
+            type="submit" 
+            class="w-full bg-blue-600 hover:bg-blue-500 px-6 py-3 rounded-md font-medium text-white transition duration-200 shadow-md">
+            📤 Send Message
+          </button>
 
-    <!-- Dot Indicators -->
-    <div class="flex justify-center mt-4 gap-2" id="carousel-dots">
-      <span class="w-3 h-3 bg-purple-500 rounded-full"></span>
-      <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
-      <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
-      <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
-      <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
-      <span class="w-3 h-3 bg-gray-400 rounded-full"></span> <!-- New dot for Fitness Hub -->
-    </div>
-  </div>
-</section>
-<!-- ✅ END: My Projects Carousel Section -->
-
-
-<!-- ✅ Carousel Script -->
-<script>
-  let currentSlide = 0;
-  const slides = document.querySelectorAll('#carousel-track > div');
-  const track = document.getElementById('carousel-track');
-  const dots = document.getElementById('carousel-dots').children;
-
-  function updateSlidePosition() {
-    const slideWidth = slides[0].offsetWidth;
-    track.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
-
-    for (let i = 0; i < dots.length; i++) {
-      dots[i].classList.remove('bg-purple-500');
-      dots[i].classList.add('bg-gray-400');
-    }
-    dots[currentSlide].classList.add('bg-purple-500');
-    dots[currentSlide].classList.remove('bg-gray-400');
-  }
-
-  function nextSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
-    updateSlidePosition();
-  }
-
-  function prevSlide() {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    updateSlidePosition();
-  }
-
-  window.addEventListener('resize', updateSlidePosition);
-</script>
-
-
-
-
-
-<!-- ✅ START: All Projects Section -->
-<section class="py-20 text-center bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] text-white">
-  <h2 class="text-4xl font-bold mb-2">All Projects</h2>
-
-  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 mt-10">
-    
-    <!-- Project 1 -->
-    <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-      <img src="images/SLSBA.png" alt="SLSBA Project" class="w-full h-48 object-cover">
-      <div class="p-6">
-        <h3 class="text-xl font-bold mb-2">SLSBA Project (Sri Lanka Schools Badminton Association)</h3>
-        <p class="text-gray-400 mb-4">A full MERN stack dashboard for Sri Lanka Schools Badminton Association.</p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">React</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Node.js</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">MongoDB</span>
-        </div>
-        <div class="flex gap-3">
-          <a href="https://github.com/Umesh123971" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
-            <i class="fas fa-code mr-2"></i> Code
-          </a>
-          <a href="https://slsba.onrender.com/" class="border border-gray-500 hover:border-white text-white px-4 py-2 rounded-full text-sm">Visit</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 2 -->
-    <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-      <img src="images/FT.png" alt="FT Project" class="w-full h-48 object-cover">
-      <div class="p-6">
-        <h3 class="text-xl font-bold mb-2">Finance Tracker (Kotlin)</h3>
-        <p class="text-gray-400 mb-4">Android app to track income, expenses, and monthly budgets.</p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Kotlin</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Android Studio</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">MPAndroidChart</span>
-        </div>
-        <div class="flex gap-3">
-          <a href="https://github.com/Umesh123971" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
-            <i class="fas fa-code mr-2"></i> Code
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 3: Rainbowpages.lk Redesign -->
-    <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-      <img src="images/fu.png" class="w-full h-48 object-cover" alt="Rainbowpages.lk UI Prototype" />
-      <div class="p-6">
-        <h3 class="text-xl font-bold mb-2">Rainbowpages.lk (UI/UX Redesign Prototype)</h3>
-        <p class="text-gray-400 mb-4">A modern redesign of the Rainbowpages.lk platform, focusing on improved usability and visual consistency. Designed using Figma.</p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Figma</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">UI Design</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Prototyping</span>
-        </div>
-        <div class="flex gap-3">
-          <a href="https://www.figma.com/design/3TIIugwYQtcxAieBp1Rg3z/Untitled?node-id=0-1&t=4AkdRpw315k9U6Wk-1" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
-            <i class="fas fa-palette mr-2"></i> View Prototype
-          </a>
-          <a href="https://www.rainbowpages.lk" target="_blank" class="border border-gray-500 hover:border-white text-white px-4 py-2 rounded-full text-sm">
-            Live Site
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 4: HUGO Real Estate Mobile App -->
-    <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-      <img src="images/fu.png" alt="HUGO Real Estate Prototype" class="w-full h-48 object-cover" />
-      <div class="p-6">
-        <h3 class="text-xl font-bold mb-2">HUGO Real Estate Mobile App UI Design</h3>
-        <p class="text-gray-400 mb-4">
-          A clean and modern mobile UI design for HUGO Real Estate, Australia — expanding business reach through a mobile platform for property discovery.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Figma</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">UI/UX</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Prototyping</span>
-        </div>
-        <div class="flex gap-3">
-          <a href="https://www.figma.com/design/5MvHqGkgreiijAwnJJ0b7V/Untitled?node-id=0-1&t=K27XlMcn297kThVx-1" 
-             target="_blank" 
-             class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
-            <i class="fas fa-palette mr-2"></i> View Prototype
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 5: 21C Care Pizza Billing System -->
-    <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-      <img src="images/pizza.png" alt="21C Care Pizza Billing System" class="w-full h-48 object-cover">
-      <div class="p-6">
-        <h3 class="text-xl font-bold mb-2">21C Care Pizza Billing System</h3>
-        <p class="text-gray-400 mb-4">
-          A full-stack web application for a pizza shop billing system. Features include order management, billing, analytics, and customer insights.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">React + TypeScript</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Go (Golang)</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
-        </div>
-        <div class="flex gap-3">
-          <a href="https://github.com/Umesh123971" 
-             target="_blank" 
-             class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
-            <i class="fas fa-code mr-2"></i> View Code
-          </a>
-          <a href="#" 
-             class="border border-gray-500 hover:border-white text-white px-4 py-2 rounded-full text-sm">
-            Demo Soon
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 6: 21C Fitness Hub -->
-    <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-     <img src="images/gym.jpeg" alt="Gym Management System" class="w-full h-48 object-cover">
-        <h3 class="text-xl font-bold mb-2">Ceylon Fitness Hub 🏋️‍♂️</h3>
-        <p class="text-gray-400 mb-4">
-          A comprehensive fitness center management system built with the MERN stack and Tailwind CSS. Includes multi-role authentication, class scheduling, payment tracking, and real-time analytics.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">React</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Node.js</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">MongoDB</span>
-          <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
-        </div>
-        <div class="flex gap-3">
-          <a href="https://github.com/Umesh123971/21c-fitness-hub" 
-             target="_blank" 
-             class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm flex items-center">
-            <i class="fas fa-code mr-2"></i> View Code
-          </a>
-          <a href="https://fitness-hub-1.onrender.com" 
-             class="border border-gray-500 hover:border-white text-white px-4 py-2 rounded-full text-sm">
-            Visit
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- ✅ END: All Projects Section -->
-
-
-
-
-
-
-<!-- 🔵 Let's Connect Heading Section -->
-<section class="text-center py-16 px-4 bg-gradient-to-br from-[#0f1628] to-[#1a2240] text-white">
-  <h2 class="text-4xl font-bold mb-4">
-    <span class="text-white">Let's</span> <span class="text-purple-400">Connect</span>
-  </h2>
-  <p class="max-w-xl mx-auto text-lg text-gray-300">
-    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
-  </p>
-</section>
-
-<!-- 🔵 Contact and Message Form Section -->
-<section class="py-10 px-4 bg-gradient-to-br from-[#121c2e] to-[#1b2340] text-white">
-  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
-    
-    <!-- Left: Contact Info -->
-    <div class="bg-[#1c2a45] rounded-xl p-8 shadow-md">
-      <h2 class="text-2xl font-semibold mb-6">Contact Information</h2>
-
-      <!-- Email -->
-      <div class="flex items-center gap-4 mb-6 bg-[#263857] p-4 rounded-xl">
-        <div class="text-2xl">📧</div>
-        <div>
-          <p class="text-sm text-gray-400">Email</p>
-          <p class="font-medium">umeshgimhan723@gmail.com</p>
-        </div>
+        </form>
       </div>
 
-      <!-- Phone -->
-      <div class="flex items-center gap-4 mb-6 bg-[#263857] p-4 rounded-xl">
-        <div class="text-2xl">📞</div>
-        <div>
-          <p class="text-sm text-gray-400">Phone</p>
-          <p class="font-medium">+94 75 368 9480</p>
-        </div>
-      </div>
-
-      <!-- Address -->
-      <div class="flex items-center gap-4 mb-6 bg-[#263857] p-4 rounded-xl">
-        <div class="text-2xl">📍</div>
-        <div>
-          <p class="text-sm text-gray-400">Address</p>
-          <p class="font-medium">16/30 Diygama Road Kahathuduwa</p>
-        </div>
-      </div>
-
-      <!-- Social Links -->
-      <h3 class="text-lg font-semibold mb-4">Connect With Me</h3>
-      <div class="flex gap-4">
-        <a href="https://github.com/Umesh123971" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2c3a56] hover:bg-[#3b4a67] text-xl">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://linkedin.com/in/umeshgimhan" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2c3a56] hover:bg-[#3b4a67] text-xl">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://instagram.com/_u.gimhan_" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2c3a56] hover:bg-[#3b4a67] text-xl">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="mailto:umeshgimhan723@gmail.com" class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2c3a56] hover:bg-[#3b4a67] text-xl">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </div>
     </div>
-
-   <!-- 🔷 Message Form Styled Like a Card -->
-<div class="bg-[#0f1628] border border-[#2c3a56] rounded-2xl p-8 shadow-xl transition hover:shadow-2xl duration-300">
-  <h2 class="text-2xl font-semibold mb-6 text-white">Send Me a Message</h2>
-  
-  <form action="https://formspree.io/f/mqalpkva" method="POST" class="space-y-5">
-    
-    <!-- Name Field -->
-    <div>
-      <label class="block mb-1 text-sm text-gray-400">Your Name</label>
-      <input 
-        name="name" 
-        type="text" 
-        class="w-full bg-[#1b2c48] p-3 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500" 
-        placeholder="Name" 
-        required />
-    </div>
-
-    <!-- Email Field -->
-    <div>
-      <label class="block mb-1 text-sm text-gray-400">Your Email</label>
-      <input 
-        name="email" 
-        type="email" 
-        class="w-full bg-[#1b2c48] p-3 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" 
-        placeholder="Email" 
-        required />
-    </div>
-
-    <!-- Subject Field -->
-    <div>
-      <label class="block mb-1 text-sm text-gray-400">Subject</label>
-      <input 
-        name="subject" 
-        type="text" 
-        class="w-full bg-[#1b2c48] p-3 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500" 
-        placeholder="Subject" 
-        required />
-    </div>
-
-    <!-- Message Field -->
-    <div>
-      <label class="block mb-1 text-sm text-gray-400">Your Message</label>
-      <textarea 
-        name="message" 
-        rows="4"
-        class="w-full bg-[#1b2c48] p-3 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500" 
-        placeholder="I'd like to discuss a potential project..." 
-        required></textarea>
-    </div>
-
-    <!-- Submit Button -->
-    <button 
-      type="submit" 
-      class="w-full bg-blue-600 hover:bg-blue-500 px-6 py-3 rounded-md font-medium text-white transition duration-200 shadow-md">
-      📤 Send Message
-    </button>
-
-  </form>
-</div>
-
-  </div>
-</section>
-
-
-
-
-
+  </section>
 
   <!-- Footer -->
   <footer class="text-center p-6 border-t border-gray-700 text-gray-500">
@@ -843,6 +778,38 @@
       document.getElementById(tabId).classList.remove("hidden");
       document.getElementById("tab-" + tabId).classList.add("tab-active");
     }
+  </script>
+
+  <!-- Carousel Script -->
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('#carousel-track > div');
+    const track = document.getElementById('carousel-track');
+    const dots = document.getElementById('carousel-dots').children;
+
+    function updateSlidePosition() {
+      const slideWidth = slides[0].offsetWidth;
+      track.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+
+      for (let i = 0; i < dots.length; i++) {
+        dots[i].classList.remove('bg-purple-500');
+        dots[i].classList.add('bg-gray-400');
+      }
+      dots[currentSlide].classList.add('bg-purple-500');
+      dots[currentSlide].classList.remove('bg-gray-400');
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      updateSlidePosition();
+    }
+
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      updateSlidePosition();
+    }
+
+    window.addEventListener('resize', updateSlidePosition);
   </script>
 
 </body>
