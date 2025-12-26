@@ -6,10 +6,7 @@
             "request": "launch",
             "name": "Launch Chrome with Live Server",
             "url": "http://localhost:5500/index.html",
-            "webRoot": "${workspaceFolder}",
-            "runtimeArgs": [
-                "--disable-web-security"
-            ]
+            "webRoot": "${workspaceFolder}"
         },
         {
             "type": "msedge",
