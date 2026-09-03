@@ -56,7 +56,9 @@ function initTypingEffect() {
   if (!typingElement) return;
 
   const roles = [
+    'System Implementation Specialist',
     'QA Intern @ 21C Care',
+    'System Implementation & QA Specialist',
     'Full-Stack Developer',
     'MERN & Go Engineer',
     'Android & Mobile Developer',
