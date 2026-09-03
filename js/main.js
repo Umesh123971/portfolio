@@ -56,13 +56,12 @@ function initTypingEffect() {
   if (!typingElement) return;
 
   const roles = [
-    'System Implementation Specialist',
+    'System Implementation Specialist & Developer',
+    'Full-Stack Developer (MERN & Go)',
     'QA Intern @ 21C Care',
-    'System Implementation & QA Specialist',
-    'Full-Stack Developer',
-    'MERN & Go Engineer',
+    'System Implementation Engineer',
     'Android & Mobile Developer',
-    'QA & Automation Enthusiast'
+    'QA & Automation Specialist'
   ];
 
   let roleIndex = 0;
