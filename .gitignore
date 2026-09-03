@@ -1,0 +1,4 @@
+.npm-cache
+.vscode
+.DS_Store
+*.log
