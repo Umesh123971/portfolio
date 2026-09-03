@@ -61,7 +61,7 @@ function initTypingEffect() {
     'QA Intern @ 21C Care',
     'System Implementation Engineer',
     'Android & Mobile Developer',
-    'QA & Automation Specialist'
+    'QA & Automation Intern'
   ];
 
   let roleIndex = 0;
